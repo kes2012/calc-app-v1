@@ -47,7 +47,7 @@ public class CalculationTest {
     @AfterEach
     public void tearDown(){
         calc = null;
-        logger.info("tearDown:- initiated and service instance destroyed ");
+        logger.info("tearDown:- Initiated and Service instance destroyed ");
     }
 
 }
