@@ -38,6 +38,12 @@ public class CalculationTest {
         Assertions.assertEquals(20,calc.mul(4,5));
     }
 
+    @Test
+    public void testDiv(){
+        Assertions.assertNotNull(calc, "service object is null");
+        Assertions.assertEquals(4,calc.div(20,5));
+    }
+
     @AfterEach
     public void tearDown(){
         calc = null;
