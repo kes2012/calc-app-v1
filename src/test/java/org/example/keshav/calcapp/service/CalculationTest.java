@@ -22,26 +22,26 @@ public class CalculationTest {
 
     @Test
     public void testAdd(){
-        Assertions.assertNotNull(calc, "service object is null");
+        Assertions.assertNotNull(calc, "Service object is null");
         Assertions.assertEquals(9,calc.add(4,5));
     }
 
     @Test
     public void testSub(){
-        Assertions.assertNotNull(calc, "service object is null");
+        Assertions.assertNotNull(calc, "Service object is null");
         Assertions.assertEquals(-1,calc.sub(4,5));
     }
 
     @Test
     public void testMul(){
-        Assertions.assertNotNull(calc, "service object is null");
+        Assertions.assertNotNull(calc, "Service object is null");
         Assertions.assertEquals(20,calc.mul(4,5));
     }
 
     @Test
     public void testDiv(){
-        Assertions.assertNotNull(calc, "service object is null");
-        Assertions.assertEquals(4,calc.div(20,5));
+        Assertions.assertNotNull(calc, "Service object is null");
+        Assertions.assertEquals(5,calc.div(20,4));
     }
 
     @AfterEach
